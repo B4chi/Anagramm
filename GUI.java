@@ -102,7 +102,7 @@ public class GUI extends Application {
         buttonAlgorithmus4.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent actionEvent) {
-                labelHeading.setText("     Algorithmus 3");
+                labelHeading.setText("     Algorithmus 4");
                 Thread t1 = new AlgorithmusStarten(labels, 4);
                 t1.run();
 
